@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        border-bottom-left-radius: 20%;
+        border-top-right-radius: 10%;
+      }
+
+      .blackbox{
+        width: 100px;
+        height: 100px;
+        background-color: black;
+      }
+
+      @media (min-width: 768px) and (max-width: 1024px) {
+        .box {
+            background-color: rgb(255, 0, 0);
+            border-radius: 50%;
+        }
+
+        .blackbox{
+            display: none;
+        }
+      }
+
+      @media (min-width: 320px) and (max-width: 767px) {
+        .box {
+            background-color: rgb(238, 255, 0);
+            border-radius: 50%;
+        }
+      }
+
+      .parent_contrainer{
+        display: flex;
+        flex-direction: row;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent_contrainer">
+        <div class="box"></div>
+        <div class="blackbox"></div>
+    </div>
+
+    
+  </body>
+</html>
