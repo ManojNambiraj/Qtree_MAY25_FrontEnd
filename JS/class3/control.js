@@ -4,20 +4,20 @@
 
 // if
 
-// let age = 22
+// let age = 16
 
-// if(age >= 18){
-//     console.log("eligible for voting");
+// if(age > 18){
+//     console.log("Eligible for voting");
 // }
 
 // if else
 
-// let age = 16;
+// let age = 20
 
-// if (age >= 18) {
-//     console.log("eligible for voting");
+// if(age > 18){
+//     console.log("Eligible for voting");
 // }else{
-//     console.log("not eligible");
+//     console.log("Not Eligible");
 // }
 
 // if else if
@@ -25,18 +25,20 @@
 // let age = 18;
 
 // if (age > 18) {
-//     console.log("eligible for voting");
+//     console.log("Eligible for voting");
 // } else if (age == 18) {
-//     console.log("Age is 18");
+//   console.log("partially eligible");
+// } else if (age < 18) {
+//   console.log("partially eligible");
 // } else {
-//     console.log("not eligible");
+//   console.log("Not eligible");
 // }
 
-// switch case
+// Switch case
 
 // let day = 15
 
-// switch (day) {
+// switch(day){
 //     case 1:
 //         console.log("It's a Monday");
 //         break;
@@ -56,52 +58,43 @@
 //         console.log("It's a Saturday");
 //         break;
 //     default:
-//         console.log("happy weekend");
+//         console.log("Happy weekend");
 //         break;
 // }
 
-// 2. Looping stmts
+// 2. Looping statements:
 
 // for loop
 
-// for(let i = 1; i <= 5; i++){
+// for(let i = 1; i <= 10; i++){
 //     console.log(i);
 // }
 
 // while loop
 
-// let i = 11;
+// let i = 1;
 
-// while(i <= 5){
+// while (i <= 10) {
 //     console.log(i);
 //     i++;
 // }
 
-// do while
+// do...while loop
 
 // let i = 11;
 
 // do {
-//   console.log(i);
-//   i++;
+//     console.log(i);
+//     i++;
 // } while (i <= 10);
 
-// Jumping statements:
+// 3. Jumping Statements:
 
-// 1. Break
+// break & Continue
 
 // for(let i = 1; i <= 5; i++){
 //     if(i == 3){
-//         break;
+//         continue;
 //     }
 //     console.log(i);
 // }
-
-// 2. Continue
-
-for (let i = 1; i <= 5; i++) {
-  if (i == 3) {
-    continue;
-  }
-  console.log(i);
-}
